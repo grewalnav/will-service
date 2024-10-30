@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <fo:layout-master-set>
+        <fo:simple-page-master margin="2cm" master-name="willdocument" page-height="30cm" page-width="20cm">
+            <fo:region-body margin="2cm"/>
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+    <fo:page-sequence master-reference="willdocument">
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block font-size="12pt" text-align="center" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="14pt" color="#000000" font-weight="bold">LAST WILL AND TESTAMENT</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="center" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">OF</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="center" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">&lt;testatorFullName&gt;</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="justify" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="bold">IMPORTANT NOTES:</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="justify" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="bold">This is only a sample. It is not a legal document. It is only for demo purposes.</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">I, &lt;testatorFullName&gt;, of &lt;testatorCity&gt;, &lt;testatorProvince&gt;</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">being of sound mind and body, declare this to be my Last Will and Testament. I revoke any and all wills previously made by me.</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="bold">ARTICLE I: PERSONAL INFORMATION</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">I am currently a resident of &lt;testatorCity&gt;, &lt;testatorProvince&gt;.</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="bold">ARTICLE II: DISTRIBUTION OF ASSETS</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="center" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">I give all of assets to</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="center" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">&lt;beneficiaries&gt;</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="bold">SIGNATURE AND WITNESS</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">IN WITNESS THEREOF, I, &lt;testatorFullName&gt;</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">have signed this Last Will and Testament on ____________________________.</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">We, the undersigned witnesses, declare that the Testator signed this will in our presence, and we, in the presence of the Testator and each other, have signed our name as witnesses.</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline/>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">______________________</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">Witness 1</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">______________________</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline font-family="Times New Roman" font-size="11pt" color="#000000" font-weight="">Witness 2</fo:inline>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline/>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline/>
+            </fo:block>
+            <fo:block font-size="12pt" text-align="left" space-after="6pt">
+                <fo:inline/>
+            </fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+</fo:root>
